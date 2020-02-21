@@ -7,11 +7,144 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Top of the page -->
+	<nav class="navbar navbar-expand-lg navbar-dark my-navbar">
+  <a class="navbar-brand" href="#">
+  <img alt="Cute Animals Logo" src="images/logo.svg" height="35">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="mammalsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Mammals
+        </a>
+        <div class="dropdown-menu" aria-labelledby="mammalsDropdown">
+          <a class="dropdown-item" href="#">Hedgehog</a>
+          <a class="dropdown-item" href="#">Badger</a>
+          <a class="dropdown-item" href="#">Fox</a>
+          <a class="dropdown-item" href="#">Rabbit</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="birdsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Birds
+        </a>
+        <div class="dropdown-menu" aria-labelledby="birdsDropdown">
+          <a class="dropdown-item" href="#">Robin</a>
+          <a class="dropdown-item" href="#">Blue tit</a>
+          <a class="dropdown-item" href="#">Sparrow</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="bugDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Insects
+        </a>
+        <div class="dropdown-menu" aria-labelledby="bugDropdown">
+          <a class="dropdown-item" href="#">Ladybird</a>
+          <a class="dropdown-item" href="#">Dragonfly</a>
+        </div>
+      </li>
+    </ul>
+	<a aria-role="button" class="btn btn-success my-2 my-sm-0" href="https://www.egelbescherming.nl/steun-ons/word-donateur/" target="_blank">Donate</a>
+  </div>
+</nav>
+	<header>
+	<div class="jumbotron meadow-background">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">Welcome to our website about cute animals</p>
+    </div>
+	</header>
+	<section class="container">
+		<div class="card">
+			<div class="card-body">
+				<h5 class="card-title">We support animal charities…</h5>
+				<p class="card-text">…and you can too! Your money can save animals. Click below to check our partner&rsquo;s website and donate for a great cause!</p>
+				<a href="https://www.egelbescherming.nl/steun-ons/word-donateur/" class="btn btn-primary" target="_blank">Donate now!</a>
+			</div>
+		</div>
+	</section>
+	<main class="container my-4"><!-- Main grid -->
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-2">
+				<a href="#">
+					<img alt="Image of a hedgehog" class="img-fluid rounded" src="images/hedgehog.jpg">
+					<h4>Hedgehog</h4>
+				</a>
+				<p>Erinaceus europaeus</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+				<a href="#">
+					<img alt="Image of a badger" class="img-fluid rounded" src="images/badger.jpg">
+					<h4>Badger</h4>
+				</a>
+				<p>Meles meles</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+				<a href="#">
+					<img alt="Image of a fox" class="img-fluid rounded" src="images/fox.jpg">
+					<h4>Fox</h4>
+				</a>
+				<p>Vulpes vulpes</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+				<a href="#">
+					<img alt="Image of a rabbit" class="img-fluid rounded" src="images/rabbit.jpg">
+					<h4>Rabbit</h4>
+				</a>
+				<p>Oryctolagus cuniculus</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 offset-xl-2">
+				<a href="#">
+					<img alt="Image of a robin" class="img-fluid rounded" src="images/robin.jpg">
+					<h4>Robin</h4>
+				</a>
+				<p>Erithacus rubecula</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+				<a href="#">
+					<img alt="Image of a blue tit" class="img-fluid rounded" src="images/blue-tit.jpg">
+					<h4>Blue tit</h4>
+				</a>
+				<p>Cyanistes caeruleus</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+				<a href="#">
+					<img alt="Image of a sparrow" class="img-fluid rounded" src="images/sparrow.jpg">
+					<h4>Sparrow</h4>
+				</a>
+				<p>Passer domesticus</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+				<a href="#">
+					<img alt="Image of a ladybird" class="img-fluid rounded" src="images/ladybug.jpg">
+					<h4>Ladybird</h4>
+				</a>
+				<p>Coccinella septempunctata</p>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-xl-2 offset-xl-5">
+				<a href="#">
+					<img alt="Image of a dragonfly" class="img-fluid rounded" src="images/dragonfly.jpg">
+					<h4>Dragonfly</h4>
+				</a>
+				<p>Aeshna cyanea</p>
+			</div>
+		</div>
+	</main>
+	<footer class="jumbotron mb-0 text-right meadow-background">
+		<p>&copy; 2020 Breda University of Applied Sciences</p>
+	</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

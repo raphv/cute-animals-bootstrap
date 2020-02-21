@@ -1,1 +1,15 @@
 @charset "utf-8";
+
+body {
+	background-color: #e0ffe0;
+	color: #004000;
+	font-family: 'Raleway';
+}
+
+.meadow-background {
+	background-image: url("../images/background.jpg");
+}
+
+.my-navbar {
+	background-color: #004000;
+}
