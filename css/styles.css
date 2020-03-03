@@ -13,3 +13,12 @@ body {
 .my-navbar {
 	background-color: #004000;
 }
+
+a.navbar-brand img {
+	opacity: .8;
+}
+
+
+a.navbar-brand:hover img {
+	opacity: 1;
+}

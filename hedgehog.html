@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-<title>Hello, world!</title>
+<title>European Hedgehog</title>
   </head>
   <body>
     <!-- Top of the page -->
 	<nav class="navbar navbar-expand-lg navbar-dark my-navbar">
-  <a class="navbar-brand" href="home.html">
+  <a class="navbar-brand" href="index.html">
   <img alt="Cute Animals Logo" src="images/logo.svg" height="35">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,15 +23,15 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" href="#" id="mammalsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Mammals
         </a>
         <div class="dropdown-menu" aria-labelledby="mammalsDropdown">
-          <a class="dropdown-item" href="hedgehog.html">Hedgehog</a>
+          <a class="dropdown-item active" href="hedgehog.html">Hedgehog</a>
           <a class="dropdown-item" href="#">Badger</a>
           <a class="dropdown-item" href="#">Fox</a>
           <a class="dropdown-item" href="#">Rabbit</a>
@@ -62,83 +62,39 @@
 </nav>
 	<header class="jumbotron meadow-background">
 	<div class="container">
-      <h1>Hello, world!</h1>
-      <p class="h4">Welcome to our website about cute animals</p>
+      <h1>European Hedgehog</h1>
+      <h3 class="font-italic">Erinaceus europaeus</h3>
     </div>
 	</header>
-	<section class="container">
-		<div class="card">
-			<div class="card-body">
-				<h5 class="card-title">We support animal charities…</h5>
-				<p class="card-text">…and you can too! Your money can save animals. Click below to check our partner&rsquo;s website and donate for a great cause!</p>
-				<a href="https://www.egelbescherming.nl/steun-ons/word-donateur/" class="btn btn-primary" target="_blank">Donate now!</a>
-			</div>
-		</div>
-	</section>
 	<main class="container my-4"><!-- Main grid -->
-		<div class="row justify-content-center">
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<a href="hedgehog.html">
-					<img alt="Image of a hedgehog" class="img-fluid rounded" src="images/hedgehog.jpg">
-					<h4>Hedgehog</h4>
-				</a>
-				<p>Erinaceus europaeus</p>
+		<div class="row flex-row-reverse">
+	     <div class="col-md-6"><!-- Right column -->
+			<div id="carouselExampleControls" class="carousel slide pb-4" data-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="images/hedgehog-2.jpg" class="d-block w-100" alt="Hedgehog">
+				</div>
+				<div class="carousel-item">
+				  <img src="images/hedgehog-3.jpg" class="d-block w-100" alt="Hedgehog">
+				</div>
+				<div class="carousel-item">
+				  <img src="images/hedgehog-1.jpg" class="d-block w-100" alt="Hedgehog">
+				</div>
+			  </div>
+			  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
 			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<a href="#">
-					<img alt="Image of a badger" class="img-fluid rounded" src="images/badger.jpg">
-					<h4>Badger</h4>
-				</a>
-				<p>Meles meles</p>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<a href="#">
-					<img alt="Image of a fox" class="img-fluid rounded" src="images/fox.jpg">
-					<h4>Fox</h4>
-				</a>
-				<p>Vulpes vulpes</p>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<a href="#">
-					<img alt="Image of a rabbit" class="img-fluid rounded" src="images/rabbit.jpg">
-					<h4>Rabbit</h4>
-				</a>
-				<p>Oryctolagus cuniculus</p>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<a href="#">
-					<img alt="Image of a robin" class="img-fluid rounded" src="images/robin.jpg">
-					<h4>Robin</h4>
-				</a>
-				<p>Erithacus rubecula</p>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<a href="#">
-					<img alt="Image of a blue tit" class="img-fluid rounded" src="images/blue-tit.jpg">
-					<h4>Blue tit</h4>
-				</a>
-				<p>Cyanistes caeruleus</p>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<a href="#">
-					<img alt="Image of a sparrow" class="img-fluid rounded" src="images/sparrow.jpg">
-					<h4>Sparrow</h4>
-				</a>
-				<p>Passer domesticus</p>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<a href="#">
-					<img alt="Image of a ladybird" class="img-fluid rounded" src="images/ladybug.jpg">
-					<h4>Ladybird</h4>
-				</a>
-				<p>Coccinella septempunctata</p>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<a href="#">
-					<img alt="Image of a dragonfly" class="img-fluid rounded" src="images/dragonfly.jpg">
-					<h4>Dragonfly</h4>
-				</a>
-				<p>Aeshna cyanea</p>
+		  </div>
+			<div class="col-md-6"><!-- Left column -->
+			  <h5>Hedgehog facts</h5>
+				<p>The European hedgehog (Erinaceus europaeus), also known as the West European hedgehog or common hedgehog, is a hedgehog species found in Europe, from Iberia and Italy northwards into Scandinavia. It is a generally common and widely distributed species that can survive across a wide range of habitat types. It is a well-known species, and a favorite in European gardens, both for its endearing appearance and its preference for eating a range of garden pests. While populations are currently stable across much of its range, it is thought to be declining severely in Great Britain.</p>
+				<p>This species is largely nocturnal. It has a hesitant gait, frequently stopping to smell the air. Unlike the smaller, warmer-climate species, the European hedgehog may hibernate in the winter. However, most wake at least once to move their nests. They are solitary in nature with mature males behaving aggressively towards each other. Occasionally a male and female may share a hibernating spot.</p>
 			</div>
 		</div>
 	</main>
